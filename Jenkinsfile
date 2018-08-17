@@ -14,6 +14,7 @@ echo "Building in next stage"'''
     }
     stage('Post-Build') {
       steps {
+        ./hello
         sh 'echo "Build Completed!"'
       }
     }
