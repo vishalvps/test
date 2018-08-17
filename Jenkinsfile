@@ -15,7 +15,7 @@ pipeline {
     stage('Post-Build') {
       steps {
         sh '''echo "Build Completed!"
-              bash hello'''
+              ./hello'''
       }
     }
   }
